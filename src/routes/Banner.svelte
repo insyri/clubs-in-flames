@@ -44,10 +44,14 @@
     </ul>
   </div>
 
-  <p class="lu">Website last updated on {date}</p>
+  <p class="lu">Last updated on {date}</p>
 </div>
 
 <style>
+  .container * {
+    max-width: 40rem;
+  }
+
   .container {
     box-shadow: 7px 7px 10px darkgray;
     padding: 1.5rem;
@@ -55,7 +59,6 @@
     background-color: var(--color-theme-1);
     color: white;
     margin-bottom: 3rem;
-    max-width: 40rem;
   }
 
   h2 {
@@ -69,7 +72,6 @@
 
   .lu {
     font-size: small;
-    /* font */
   }
 
   .cc {

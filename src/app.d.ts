@@ -9,12 +9,18 @@ declare global {
   }
 
   type ClubInfo = {
-    president: string;
+    president: Person | null;
+    sponsor: Person | null;
     name: string;
-    pmoc: string; // Prefered method of communication
-    staff: string[];
-    additional_info: string | undefined;
-    code: string | undefined;
+    pmoc: string | null; // Prefered method of communication
+    staff: Person[]; // length of 0 = null
+    additional_info: string | null;
+    code: string | null;
+  };
+
+  type Person = {
+    name: string;
+    id: number;
   };
 }
 

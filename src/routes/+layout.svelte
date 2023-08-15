@@ -18,7 +18,7 @@
       created by noah mercedes in one night. <span>v{PUBLIC_VERSION}</span>
     </p>
     <p>
-      email <a href="mailto: 4806848800@students.ocps.net"
+      email <a href="mailto:4806848800@students.ocps.net"
         >4806848800@students.ocps.net</a
       > for inquiries or update requests
     </p>

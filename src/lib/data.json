@@ -1,10 +1,40 @@
 [
   {
     "name": "Girls Who Code",
-    "president": "Tina Le",
-    "staff": ["Raida", "et al."],
+    "president": {
+      "name": "Tina L",
+      "id": 4804140819
+    },
+    "sponsor": null,
+    "staff": [
+      {
+        "name": "Raida",
+        "id": 0
+      },
+      {
+        "name": "Gloom",
+        "id": 4804214612
+      },
+      {
+        "name": "Kamila",
+        "id": 4804144992
+      },
+      {
+        "name": "Tina H",
+        "id": 4804259385
+      }
+    ],
     "pmoc": "Remind",
     "code": "@bearsgwcc",
-    "additional_info": "tina is a pretty cool person"
+    "additional_info": null
+  },
+  {
+    "name": "Hack Club",
+    "president": null,
+    "sponsor": null,
+    "staff": [],
+    "pmoc": "Remind",
+    "code": "@cchshctmp",
+    "additional_info": "Still trying to gather individuals to agree on terms. Possible presidents: Noah M, Rishi P."
   }
 ]

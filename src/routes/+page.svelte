@@ -7,19 +7,24 @@
 </script>
 
 <svelte:head>
-  <title>Home</title>
-  <meta name="description" content="Svelte demo app" />
+  <title>CCHS Clubs | Board of Information</title>
+  <meta
+    name="description"
+    content="To publicize information and clear up misunderstandings. Created by Noah Mercedes."
+  />
 </svelte:head>
 
 <section>
   <Banner />
-  {#if empty}
-    No information yet, check back later.
-  {:else}
-    {#each data as club}
-      <Club {club} />
-    {/each}
-  {/if}
+  <div>
+    {#if empty}
+      No information yet, check back later.
+    {:else}
+      {#each data as club}
+        <Club {club} />
+      {/each}
+    {/if}
+  </div>
 </section>
 
 <style>
